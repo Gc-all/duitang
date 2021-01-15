@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--StartFragment-->
+    <div class="warp">
+        <div class="login-head">
+            <div class="logo">
+                <a href="#" class="logo1">
+                    <img src="../images/dllogo.png" alt="logo">
+                </a>
+                <div class="dl-zc">
+                    <a href="#" class="zc">注册</a>
+                    <span>|</span>
+                    <a href="#" class="dl active">登录</a>
+                </div>
+            </div>
+        </div>
+        <div class="login-main">
+            <div class="main-zc ">
+                <h2>亲爱的堆糖用户：</h2>
+                <p>请注册</p>
+                <div class="information">
+                    <div>
+                        <label for="">用户名</label>
+                        <label for="">密码</label>
+                        <label for="">昵称</label>
+                    </div>
+                    <div>
+                        <label class="labelname">
+                            <input type="text" placeholder="用户名为6-12个字母" id="textname">
+                            <span>用户名已被注册</span>
+                            <span>用户名为6-12个字母</span>
+                            <span class="null">用户名不能为空</span>
+                        </label>
+                        <label class="labelpsw">
+                            <input type="password" id="textpsw" placeholder="密码为6-12个英文或符号">
+                            <span class="null">密码不能为空</span>
+                            <span>密码为6-12个英文或下划线</span>
+                        </label>
+                        <label class="labelnick">
+                            <input type="text" placeholder="4-8个文字或字母" id="textnick">
+                            <span class="null">名字不能为空</span>
+                            <span>昵称为4-8个文字或字符</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="btn">注册</div>
+            </div>
+            <div></div>
+            <div class="main-dl active">
+                <div class="main-left">
+                    <ul>
+                        <li>
+                            <label for="">手机号/昵称/邮箱</label>
+                            <input type="text" name="inp" id="username">
+                        </li>
+                        <li>
+                            <label for="">输入密码</label>
+                            <input type="password" name="inp" id="password">
+                            <span><a href="#">忘记密码？</a></span>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="remember">
+                            <label for="remember">记住我</label>
+                            <i>切换至海外手机号登录</i>
+                        </li>
+                        <li>
+                            <button>登录</button>
+                        </li>
+                    </ul>
+                    <ol>
+                        <li class="qq">
+                            <i></i>
+                            <span>QQ登录</span>
+                        </li>
+                        <li class="weibo">
+                            <i></i>
+                            <span>微博登录</span>
+                        </li>
+                        <li class="wechat">
+                            <i></i>
+                            <span>微信登录</span>
+                        </li>
+                    </ol>
+                </div>
+                <div class="main-right">
+                    <div>
+                        <img src="../images/ma.png" alt="">
+                        <p>扫一扫下载手机客户端</p>
+                        <p>浏览体验更佳</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../public/jquery.js"></script>
+    <script src="../public/utils实例.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

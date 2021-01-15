@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system-font, PingFang SC, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+.warp .login-head {
+  width: 100%;
+  height: 192px;
+  background: #f6f6f6;
+  padding: 80px 0 0 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: -apple-system-font, PingFang SC, Helvetica Neue, Helvetica, STHeiTi, sans-serif;
+}
+.warp .login-head .logo {
+  text-align: center;
+}
+.warp .login-head .logo .logo1 {
+  display: block;
+  text-align: center;
+}
+.warp .login-head .logo .dl-zc {
+  text-align: center;
+}
+.warp .login-head .logo .dl-zc .zc, .warp .login-head .logo .dl-zc .dl {
+  font-size: 14px;
+  color: #666;
+  line-height: 42px;
+}
+.warp .login-head .logo .dl-zc span {
+  color: #666;
+  font-size: 12px;
+  margin: 0 5px;
+}
+.warp .login-head .active {
+  color: #f14382 !important;
+}
+.warp .login-main {
+  height: calc(100% - 192px);
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+.warp .login-main .main-dl {
+  width: 992px;
+  height: 368px;
+  margin: 0 auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.warp .login-main .main-dl .main-left {
+  width: 582px;
+  height: 100%;
+  box-sizing: border-box;
+  border-right: 1px solid #ebebeb;
+}
+.warp .login-main .main-dl .main-left ul li {
+  text-align: right;
+  position: relative;
+  padding: 0 138px 0 40px;
+  box-sizing: border-box;
+}
+.warp .login-main .main-dl .main-left ul li label {
+  width: 100%;
+  font-size: 12px;
+  color: #666;
+}
+.warp .login-main .main-dl .main-left ul li input[name=inp] {
+  outline: none;
+  width: 292px;
+  height: 40px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  padding-left: 12px;
+  border: 1px solid #d4d4d4;
+}
+.warp .login-main .main-dl .main-left ul li span {
+  position: absolute;
+  bottom: 5px;
+  right: 65px;
+  color: #5678a0;
+  font-size: 12px;
+}
+.warp .login-main .main-dl .main-left ul li span a {
+  color: #5678a0;
+  font-size: 12px;
+}
+.warp .login-main .main-dl .main-left ul li span a:hover {
+  color: #ff7e7e;
+}
+.warp .login-main .main-dl .main-left ul li button {
+  cursor: pointer;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: #ff4466;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+  outline: none;
+}
+.warp .login-main .main-dl .main-left ul li:nth-of-type(2) {
+  margin: 35px 0;
+}
+.warp .login-main .main-dl .main-left ul li:nth-of-type(3) {
+  text-align: left;
+  position: relative;
+}
+.warp .login-main .main-dl .main-left ul li:nth-of-type(3) input[type=checkbox] {
+  width: 13px;
+  height: 13px;
+  border: 1px solid #767676;
+  box-sizing: border-box;
+  margin-left: 110px;
+}
+.warp .login-main .main-dl .main-left ul li:nth-of-type(3) label {
+  vertical-align: top;
+  height: 20px;
+}
+.warp .login-main .main-dl .main-left ul li:nth-of-type(3) i {
+  font-style: normal;
+  right: 75px;
+  bottom: 3px;
+  position: absolute;
+  color: #666;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 70px;
+  cursor: pointer;
+}
+.warp .login-main .main-dl .main-left ol {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 42px;
+}
+.warp .login-main .main-dl .main-left ol li {
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.warp .login-main .main-dl .main-left ol li i {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.warp .login-main .main-dl .main-left ol li span {
+  font-size: 12px;
+  color: #666;
+}
+.warp .login-main .main-dl .main-left ol .qq i {
+  background: url(../img/pics.png) no-repeat -32px 0;
+}
+.warp .login-main .main-dl .main-left ol .weibo i {
+  background: url(../img/pics.png) no-repeat 0px 0;
+}
+.warp .login-main .main-dl .main-left ol .wechat i {
+  background: url(../img/pics.png) no-repeat -160px 0;
+}
+.warp .login-main .main-dl .main-right {
+  width: 410px;
+  height: 100%;
+  box-sizing: border-box;
+  padding-right: 130px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-top: 40px;
+}
+.warp .login-main .main-dl .main-right div {
+  width: 150px;
+  height: 150px;
+}
+.warp .login-main .main-dl .main-right div img {
+  width: 100%;
+  height: 100%;
+}
+.warp .login-main .main-dl .main-right p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  line-height: 20px;
+}
+.warp .login-main .main-dl .main-right p:first-of-type {
+  margin-top: 29px;
+}
+.warp .login-main .main-zc {
+  width: 992px;
+  height: 368px;
+  margin: 0 auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+  margin-top: -60px;
+}
+.warp .login-main .main-zc h2 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+}
+.warp .login-main .main-zc > p:nth-of-type(1) {
+  font-size: 16px;
+  line-height: 24px;
+  color: #666;
+}
+.warp .login-main .main-zc .information {
+  display: flex;
+  align-items: flex-end;
+}
+.warp .login-main .main-zc .information div:nth-of-type(1) {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 14px;
+}
+.warp .login-main .main-zc .information div:nth-of-type(1) label {
+  margin: 15px 0;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+}
+.warp .login-main .main-zc .information div:nth-of-type(2) {
+  position: relative;
+}
+.warp .login-main .main-zc .information div:nth-of-type(2) label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 14px;
+  position: relative;
+}
+.warp .login-main .main-zc .information div:nth-of-type(2) input {
+  margin: 15px 0;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  outline: none;
+  padding: 0 10px;
+  width: 208px;
+  height: 30px;
+}
+.warp .login-main .main-zc .information div:nth-of-type(2) span {
+  display: none;
+  position: absolute;
+  font-size: 14px;
+  color: red;
+  top: -4px;
+  left: 10px;
+}
+.warp .login-main .main-zc .information div:nth-of-type(2) span.active {
+  display: block;
+}
+.warp .login-main .main-zc .btn {
+  line-height: 40px;
+  text-align: center;
+  margin-top: 36px;
+  width: 150px;
+  height: 40px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 2px;
+  background-color: #ff4466;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+}
+.warp .login-main .active {
+  display: flex !important;
+}
+
+/*# sourceMappingURL=login.css.map */
